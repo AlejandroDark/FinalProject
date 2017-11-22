@@ -1,0 +1,181 @@
+
+
+
+
+
+
+Sistema de administración de asesorías
+
+Coordinación de tutorías ITSUR
+
+
+Juan Carlos Hurtado Morales
+Orlando Isaí Mendoza García
+Tania Martínez Villagómez 
+Ricardo Fabián Juárez Santoyo
+Miguel Alejandro Vázquez Alberto
+José Guadalupe Rivera Alcantar
+ 
+
+Índice del documento
+1.	Introducción	3
+2.	Situación	3
+2.1	Declaración del problema	3
+2.2	Posición del Producto	3
+3.	Descripción de los Stakeholders	4
+3.1	Resumen de los Stakeholders.	4
+3.2	Ambiente del usuario	4
+4.	Visión General del Producto	5
+4.1	Perspectiva del producto	5
+4.2	Suposiciones  y Dependencias	5
+4.3	Restricciones	5
+4.4	Necesidades y Características (Funcionalidades)	5
+4.5	Alternativas y competencia	5
+5.	Otros Requerimientos del producto	7
+5.1	Soporte	7
+5.2	Implementación	7
+5.3	Liberación y entrega del producto	7
+5.4	Mantenimiento	7
+
+ 
+ 
+1.	Introducción
+Por medio de este proyecto se plantea crear un sistema que permita la administración y control de los procesos relacionados con las asesorías.
+Actualmente existe un sistema que permite llevar a cabo algunas de estas actividades. Pero no es utilizado.
+El objetivo de este proyecto es complementar el sistema ya existente, creando un módulo que pueda extender las funcionalidades actuales, adaptado a las necesidades del cliente.
+
+2.	Situación
+2.1	Declaración del problema
+
+El problema 	El sistema actual no cuenta con todas las funcionalidades necesarias.
+Afecta	A la coordinación de tutorías, a los tutores y a los tutorados.
+El impacto del problema es	Los procesos se vuelven más lentos. La coordinación invierte un tiempo considerable registrando la información de los tutores y sus grupos. La información sobre sus grupos tarda en llegar a los tutores y tutorados.
+Una solución exitosa seria	Crear un módulo de uso intuitivo que permita automatizar los procesos realizados por la coordinación de tutorías en conjunto con el sistema existente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.2	Posición del Producto
+
+Para		La coordinación de tutorías
+Qué	Permite el registro de materias y horarios de las asesorías, así como los datos del asesor y la información de sus asesorados. De las asesorías registra el número de sesiones exitosas y registra la asistencia a éstas, y en el caso de las sesiones fallidas, el motivo por el que no se llevaron a cabo. Permite la solicitud de asesorías, emitiendo notificaciones sobre el resultado de la solicitud.
+Genera estadísticas sobre las materias más solicitadas, sobre el porcentaje de sesiones exitosas por asesor.
+
+Al contrario de	El software de las demás empresas y en un futuro a versiones anteriores de este.
+Nuestro producto	A diferencia de la competencia nuestro software tiene la opción de la renta, que analizara el tiempo que falta para pagarla y si se cuenta con el dinero para realizar el pago, la opción de pago para definir el pago de los empleados y la de proveedor con la cual se enviara notificación de las próximas visitas de estos.
+3.	Descripción de los Stakeholders
+
+3.1	Resumen de los Stakeholders.
+
+Nombre	Descripción	Responsabilidades
+Encargados de tutorías.
+
+
+Equipo de generación del software.
+
+
+
+	Se encargan del proceso de tutorías.
+
+
+Equipo encargado de crear el software que utilizara el encargado de tutorías.            	Los empleados realizan tareas la asignación de tutores, ellos serán capacitados para usar el software.
+
+Son los responsables de crear el software para tutorías, además de informar sobre detalles y cuestiones del funcionamiento de este, se encargan de asesorar a los empleados y la dueña sobre cómo funciona el software además de cómo darle mantenimiento, también cobran por el software a la institución.
+
+3.2	Ambiente del usuario
+¿Se solucionarán los problemas que salgan al implementar el proyecto?
+           Por reglamentaria solucionaremos todos los problemas que surjan durante la                  realización e implementación del proyecto, durante la implementación de llegara  a un acuerdo con el usuario del periodo de garantía para dicho proyecto
+¿Número de gente involucrada en completar la tarea? 
+Hay 6 integrantes en el equipo 
+¿Es cambiante?
+En ocasiones, depende de la hora del día
+¿Cantidad de tiempo empleado en cada actividad?
+Por lo general se tarda un tiempo medio para encontrar un tutor desocupado para dar asesorías o en ocasiones no hay tutores disponibles para dar asesorías.
+ ¿Es cambiante?
+Si, el proceso puede ser menos tardado.
+¿Cuánto tiempo tarda el ciclo de una tarea? 
+Entre algunas horas.
+Algunas limitantes ambientales físicas: ¿mobiliario, exteriores, etc.?
+Hasta el momento no hay ninguna limitante 
+¿Qué plataforma de sistema se utiliza? ¿Plataformas para el futuro?
+Se espera que sea para sistemas operativos de Windows, en caso de que el cliente decida que lo quiere en un dispositivo móvil se podrá utilizar en Android o en IOS.
+¿Qué otras aplicaciones están en uso? 
+Ya hay un sistema implementado en esta sección pero la idea es mejorarlo para un uso más optimo y entendible.
+¿Necesita integrarse con las otras aplicaciones?  
+El software deberá estar conectado con el sistema de la escuela para acceder a los alumnos que soliciten un tutor o una asesoría.
+ 
+4.	 Visión General del Producto 
+4.1Perspectiva del producto
+Como se mencionó anteriormente el sistema tendrá interacción con el sistema de alumnos de la escuela, donde se va a poder hacer el proceso de tutorías.
+4.2	Suposiciones y Dependencias
+•	Solicitantes de tutores. 
+•	Tutores. 
+•	Alumnos. 
+•	Encargados de asesorías. 
+4.3	Restricciones
+•	Conocimientos básicos de computación del personal de tutorías.
+•	Espacio en el dispositivo que se empleara el software. 
+•	Conexión a internet. 
+•	Fallas en el software. 
+•	Modificaciones o actualizaciones al sistema a largo plazo. 
+
+
+4.4	Necesidades y Características (Funcionalidades)
+
+Necesidad	Prioridad	Características	Lanzamiento planeado
+Llevar un registro. 
+
+
+
+
+Generar estadística. 
+	Alta    
+Media
+Baja
+
+
+
+	Se registrará a los alumnos con tutor y sin tutor que solicite asesorías 
+
+La estadística será para ver la como el alumno a mejorado en la materia que solicito asesoría  
+	Todos se llevarán a cabo en la primera versión del software
+
+4.5	Alternativas y competencia
+Existen las alternativas de la competencia, obviamente hablaran maravillas de sus productos, pero nosotros como empresa responsable les garantizamos una gran calidad en cuanto al software, así como hacer visitas para ver el comportamiento del software y en estas visitas hacer actualizaciones donde se corrijan errores, la competencia no garantiza esto además de hacer un presupuesto del software y tratar de que sea accesible para el cliente, pero lo más importante que no se sentirá decepcionado y quedara conforme.
+5.	Otros Requerimientos del producto
+  Tener uno o varios equipos en funcionamiento para la realización de la instalación del programa.
+•	El cliente tiene que dejar en claro en qué tipo de sistema operativo ocupa el producto.
+•	 Si es en más de un sistema operativo se cobrará una cantidad extra de dinero.
+•	Si el cliente no utilizo el producto y vio que el funcionamiento de tal fuera correcto y surge un problema al finalizar la garantía, la empresa ya no se hará responsable de cualquier surgimiento de problemas, si el cliente desea un arreglo “SE COBRARA”. 
+•	El producto no tendrá fallas, si ocurre un problema con el producto que sea culpa de la empresa se corregirá inmediatamente.
+•	Si el cliente daña el producto, la empresa no se hará responsable del daño causado, si el cliente quiere un arreglo se añadirá un costo extra al producto.
+•	Si el cliente desea añadir una función extra al producto y no quedo en el registro de los requerimientos que nos dio al principio se añadirá un costo extra al producto final, si no desea pagar el cliente no se añadirá nada. 
+•	El programador o creador del producto final le instalara correctamente el producto final.
+El programa al ser utilizado hará que el cliente tenga un mejor rendimiento en su trabajo al poder hacer ciertos procesos mucho más rápido que haciéndolos manualmente evitando cualquier tipo de mal entendido ya sea en la parte financiera o almacenamiento de productos.
+Para la aprobación de los anteriores requerimientos se necesita la firma de un responsable. 
+
+--------------------------------------------                        ------------------------------------------------------
+Firma del Responsable                                         Firma del responsable de la creación del producto
+5.1	Soporte
+•	Si se presenta un caso de fallo, ya sea por mala conexión a la red, infraestructura, etc. Nosotros como empresa no nos haremos responsables, solo si el cliente desea que coloquemos una red en su empresa.
+•	Al cliente se le dará una garantía con un cierto tiempo determinado por nuestra empresa dependiendo del tipo de programa que se les venda.
+•	Se le dará al cliente un número, correo electrónico o el tipo de red social para que se pueda comunicar con nuestra empresa por si llegara a tener algún fallo.
+•	El producto tendrá un manual de usuario para que el personal o el cliente de la empresa que compro el producto sepa el correcto funcionamiento del producto.
+5.2	Implementación
+El software será implementado en funcionamiento correcto ya sea en horas libres que tengan el encargado de tutorías o haciendo un espacio de trabajo para poder implementar el sistema específicamente en el área donde se hacen los pedidos a los empleados
+5.3	Liberación y entrega del producto
+El software será entregado en la fecha acordada, y con los requisitos también acordados por parte de la empresa y el cliente, entregando así una documentación final del producto y sus manuales de usuario o algún otro documento acordado. Acordando así que el cliente a recibir este documento esta consiente de los acuerdos y que por ningún motivo alguna otra cosa más que no esté escrita en este documento no será válida dicha petición.
+
+5.4	Mantenimiento
+El software contara con una garantía que permita al cliente recibir mantenimiento del programa mínimo 1 mes y máximo 4 meses. En caso de que el cliente quiera que algunos de las funcionalidades del software sean quitados se podrá remover en ese lapso acordado, y en caso contrario, se aplicara un cobro aparte del acordado. Si en el software hay fallas como error en la base de datos o alguna otra falla del software, no se aplicarán cobros adicionales y el software será entregado en una nueva versión con la falla corregida.
+
